@@ -1,0 +1,120 @@
+@font-face {
+    font-family: outfit-regular;
+    src: url(fonts/Outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit_black;
+    src: url(fonts/Outfit/static/Outfit-Black.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1F314F;
+}
+
+@media screen and (max-width: 768px) {
+    .card_position {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .card {
+        width: 320px;
+        height: 497px;
+        background-color: #FFFFFF;
+        border-radius: 22px;
+    }
+    
+    .qr_box_in_card {
+        width: 288px;
+        height: 288px;
+        background-color: #1F314F;
+        margin: 16px 16px 193px 16px;
+        border-radius: 10px;
+    }
+    
+    img {
+        margin: 64px;
+    }
+    
+    .txt_head_in_card {
+        width: 288px;
+        height: 56px;
+        margin-top: 24px;
+        border-width: 1px;
+        font-family: outfit_black;
+        font-weight: 700;
+        font-size: 22px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        text-shadow: 0px 4px 4px #00000040;
+    }
+    
+    .txt_body_in_card {
+        width: 256px;
+        height: 57px;
+        margin-left: 16px;
+        font-family: outfit-regular;
+        font-weight: 400;
+        font-size: 15px;
+        color: #7D889E;
+        text-align: center;
+    }
+}
+
+.card_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 320px;
+    height: 497px;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+}
+
+.qr_box_in_card {
+    width: 288px;
+    height: 288px;
+    background-color: #1F314F;
+    margin: 16px 16px 193px 16px;
+    border-radius: 10px;
+}
+
+img {
+    margin: 64px;
+}
+
+.txt_head_in_card {
+    width: 288px;
+    height: 56px;
+    margin-top: 24px;
+    border-width: 1px;
+    font-family: outfit_black;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.txt_body_in_card {
+    width: 256px;
+    height: 57px;
+    margin-left: 16px;
+    font-family: outfit-regular;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7D889E;
+    text-align: center;
+}
